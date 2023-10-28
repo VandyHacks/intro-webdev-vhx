@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+    
+<div class = headContainer> 
+
+    <h4 id="nameTab">MCCANN.CV</h4>
+
+    <h4 class="tab">About</h4>
+    <h4 class="tab" id="skills">Skills</h4>
+    <h4 class="tab">Experience</h4>
+    <h4 class="tab">Education</h4>
+
+</div>
+
+<div class = bodyContainer>   
+    <div class="imageBox">
+        <img src="MoneyDuck.JPEG" alt="logo">
+
+        <h2 id = "general">General Information</h2>
+
+        <p><span class = "p1">Name: </span> <span class = "p2">FirstName</span></p>
+        <p><span class = "p1">Location: </span> <span class = "p2">Nashville TN</span></p>
+        <p><span class = "p1">Contact: </span> <span class = "p2">FirstName@gmail.com</span></p>
+
+    </div>
+
+    <div id = "bodyText">
+
+        <h1 id = "title">Software Developer</h1>
+        <h1 id = "nameTitle">Name Here</h1>
+    
+        <h2>Description</h2>
+    
+        <h3 id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Sequi pariatur voluptas suscipit, expedita nostrum deleniti 
+            atque autem quisquam nobis vero veniam qui libero nisi, minus, 
+            delectus repellat voluptatibus maiores molestiae. Lorem, ipsum 
+            dolor sit amet consectetur adipisicing elit. Blanditiis sequi 
+            asperiores, iste saepe eius voluptates, exercitationem assumenda 
+            in mollitia nobis, reiciendis eum ab voluptate molestias aut 
+            voluptatum cumque consequatur similique.
+        </h3>
+        
+    </div>
+
+</div>
+
+<script>
+    function onClick(){
+        document.getElementById("description").innerHTML = "My skills are Javascript, HTML, and CSS."
+        alert("Hey");
+    }
+    document.getElementById("skills").onclick = onClick;
+</script>
+
+</body>
+</html>

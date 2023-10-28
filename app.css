@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nameTab{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 800;
+    
+    padding-top: 15px;
+    padding-right: 20px;
+
+    color: midnightblue;
+}
+
+.tab{
+    font-size: 18px;
+    border: 1px solid;
+
+    background: midnightblue;
+    color: azure;
+
+    padding: 22px 20px;
+    margin: 0;
+}
+
+.headContainer, .bodyContainer{
+    display: flex;
+}
+
+.imageBox{
+    width: 35%;
+    height: 30%;
+    padding-bottom: 2%;
+    background: midnightblue;
+}
+
+img{
+    width: 100%;
+}
+
+#general{
+    padding-left: 10%;
+    color: azure;
+}
+
+p{
+    padding-left: 10%;
+}
+
+.p1{
+    color: slategray;
+}
+
+.p2{
+    color: azure;
+}
+
+#bodyText{
+    background: #f1efef;
+
+    width: 100vw;
+    height: 100vh;
+
+    padding: 5% 5% 0% 5%;
+
+    color: midnightblue;
+}
+
+#nameTitle{
+    font-size: 80px;
+    color: midnightblue;
+    margin-top: 0;
+}
+
+h3{
+    color:slategray
+}
+
+
